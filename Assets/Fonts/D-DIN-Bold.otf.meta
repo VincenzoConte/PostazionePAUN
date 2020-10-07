@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fb14a9f373f0f0045b813f24f54e0e38
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: D-DIN
+  fontNames:
+  - D-DIN
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7a4d8e50a1d899b4bb0c735d9af55187, type: 3}
+  - {fileID: 12800000, guid: 891dff6194e9ca843aa88a9d39f3a26d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

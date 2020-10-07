@@ -1,0 +1,5 @@
+{
+	"ServerURL": "localhost:1337",
+    "LocationID": "Loc2",
+    "CypherKey": "2F423F4528482B4D6251655468576D5A"
+}
