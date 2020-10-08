@@ -245,7 +245,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee277e7f991c60549ade34fce01c5bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocationID: 2
+  LocationID: 1
   CypherKey: 2F423F4528482B4D6251655468576D5A
   BusyMessage: 'Postazione occupata
 

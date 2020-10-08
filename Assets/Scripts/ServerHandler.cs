@@ -230,11 +230,10 @@ public class ServerHandler : MonoBehaviour
     {
         success = false;
         //adding parameters for the POST request
-        WWWForm form = new WWWForm();
-        form.AddField("userid", userID);
+        var parameters = "?userid=" + userID;
 
         //creating request
-        UnityWebRequest request = UnityWebRequest.Post(URL + "/getuser", form);
+        UnityWebRequest request = UnityWebRequest.Get(URL + "/getuser" + parameters);
 
         //sending request and waiting for response
         yield return request.SendWebRequest();

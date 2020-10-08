@@ -68,7 +68,7 @@ public class Postazione : MonoBehaviour
         if(isBusy)
         {
             string state = ServerHandler.out3;
-            if(state == "waiting")
+            if(state == "waiting" || state == "playing")
             {
                 string userID = ServerHandler.out1;
                 yield return StartCoroutine(ServerHandler.GetUserCoroutine(userID));
